@@ -5,6 +5,7 @@
 ## 目录
 
 - [136.只出现一次的数字](problems/136.Single-Number.md)
+- [169.多数元素](problems/169.Majority-Element.md)
 
 ## 使用语言
 
