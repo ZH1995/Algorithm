@@ -6,6 +6,7 @@
 
 - [1.两数之和](problems/1.Two-Sum.md)
 - [31.下一个排列](problems/31.Next-Permutation.md)
+- [45.跳跃游戏II](problems/45.Jump-Game-II.md)
 - [55.跳跃游戏](problems/55.Jump-Game.md)
 - [75.颜色分类](problems/75.Sort-Colors.md)
 - [121.买卖股票的最佳时机](problems/121.Best-Time-to-Buy-and-Sell-Stock.md)
