@@ -15,6 +15,7 @@
 - [121.买卖股票的最佳时机](problems/121.Best-Time-to-Buy-and-Sell-Stock.md)
 - [136.只出现一次的数字](problems/136.Single-Number.md)
 - [169.多数元素](problems/169.Majority-Element.md)
+- [279.完全平方数](problems/279.Perfect-Squares.md)
 - [287.寻找重复数](problems/287.Find-the-Duplicate-Number.md)
 - [763.划分字母区间](problems/763.Partition-Labels.md)
 
