@@ -8,6 +8,7 @@
 - [31.下一个排列](problems/31.Next-Permutation.md)
 - [45.跳跃游戏II](problems/45.Jump-Game-II.md)
 - [55.跳跃游戏](problems/55.Jump-Game.md)
+- [70.爬楼梯](problems/70.Climbing-Stairs.md)
 - [75.颜色分类](problems/75.Sort-Colors.md)
 - [121.买卖股票的最佳时机](problems/121.Best-Time-to-Buy-and-Sell-Stock.md)
 - [136.只出现一次的数字](problems/136.Single-Number.md)
