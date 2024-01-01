@@ -10,6 +10,7 @@
 - [55.跳跃游戏](problems/55.Jump-Game.md)
 - [70.爬楼梯](problems/70.Climbing-Stairs.md)
 - [75.颜色分类](problems/75.Sort-Colors.md)
+- [118.杨辉三角](problems/118.Pascal's-Triangle.md)
 - [121.买卖股票的最佳时机](problems/121.Best-Time-to-Buy-and-Sell-Stock.md)
 - [136.只出现一次的数字](problems/136.Single-Number.md)
 - [169.多数元素](problems/169.Majority-Element.md)
