@@ -18,6 +18,7 @@
 - [169.多数元素](problems/169.Majority-Element.md)
 - [279.完全平方数](problems/279.Perfect-Squares.md)
 - [287.寻找重复数](problems/287.Find-the-Duplicate-Number.md)
+- [300.最长递增子序列](problems/300.Longest-Increasing-Subsequence.md)
 - [322.零钱兑换](problems/322.Coin-Change.md)
 - [763.划分字母区间](problems/763.Partition-Labels.md)
 
