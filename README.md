@@ -51,3 +51,4 @@ If you have good problem-solving ideas or code implementation, you are welcome t
 
 ## Content
 
+- [Problem 1768](./study-plan/leetcode75/string/problem_1768/README.md)

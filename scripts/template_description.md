@@ -1,15 +1,15 @@
 # Problem {{problem_number}}
 
-**题目描述：**
+**Problem Description：**
 
 这里写题目的详细描述。
 
-**标签：**
+**Category：**
 
 - 标签1
 - 标签2
 
-**难度：**
+**Difficulty：**
 
-难度等级（简单、中等、困难）
+Easy、Medium、Hard
 

@@ -1,5 +1,8 @@
+// Problem 1768 solution
+
 #include <iostream>
-#include <string>
+#include <vector>
+
 using namespace std;
 
 class Solution {
@@ -21,18 +24,9 @@ public:
 };
 
 int main() {
-    freopen("in", "r", stdin);
-    freopen("out", "w", stdout);
-
-    int T;
-    cin >> T;
-    while (T --) {
-        string word1, word2;
-        cin >> word1 >> word2;
-
-        Solution *obj = new Solution();
-        cout << obj->mergeAlternately(word1, word2) << endl;
-    }
-    
+    string word1 = "abcd", word2 = "pq";
+    Solution sol;
+    cout << sol.mergeAlternately(word1, word2) << endl;
     return 0;
 }
+
