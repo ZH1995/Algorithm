@@ -7,7 +7,7 @@ using namespace std;
 
 class Solution {
 public:
-    // slove code
+    // solve code
     void solve() {
         // your code
     }
