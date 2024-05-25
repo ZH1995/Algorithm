@@ -1,35 +1,53 @@
-# LeetCode 题解
+# Leetcode
 
-这个仓库包含了我在 LeetCode 上的题解。每个题解都包含了详细的解题思路和代码实现。
+This repository contains my solutions to problems on LeetCode. Each problem solution contains detailed problem-solving ideas and code implementation.
 
-## 目录
+## Structure
 
-- [1.两数之和](problems/1.Two-Sum.md)
-- [31.下一个排列](problems/31.Next-Permutation.md)
-- [45.跳跃游戏II](problems/45.Jump-Game-II.md)
-- [55.跳跃游戏](problems/55.Jump-Game.md)
-- [70.爬楼梯](problems/70.Climbing-Stairs.md)
-- [75.颜色分类](problems/75.Sort-Colors.md)
-- [118.杨辉三角](problems/118.Pascal's-Triangle.md)
-- [139.单词拆分](problems/139.Word-Break.md)
-- [198.打家劫舍](problems/198.House-Robber.md)
-- [121.买卖股票的最佳时机](problems/121.Best-Time-to-Buy-and-Sell-Stock.md)
-- [136.只出现一次的数字](problems/136.Single-Number.md)
-- [169.多数元素](problems/169.Majority-Element.md)
-- [279.完全平方数](problems/279.Perfect-Squares.md)
-- [287.寻找重复数](problems/287.Find-the-Duplicate-Number.md)
-- [300.最长递增子序列](problems/300.Longest-Increasing-Subsequence.md)
-- [322.零钱兑换](problems/322.Coin-Change.md)
-- [763.划分字母区间](problems/763.Partition-Labels.md)
+```sh
+Leetcode-Repo/
+├── README.md
+├── problems/
+│   ├── problem_0001/
+│   │   ├── README.md  # problem description
+│   │   ├── description/
+│   │   │   └── problem_0001.md
+│   │   ├── solutions/
+│   │   │   └── solution_0001.cpp
+│   └── problem_0002/
+│       ├── README.md
+│       ├── description/
+│       │   └── problem_0002.md
+│       ├── solutions/
+│           └── solution_0002.cpp
+├── study-plan/
+│   ├── leetcode75/
+│   │   ├── README.md
+│   │   ├── array/
+│   │   │   ├── problem_001.md
+│   │   │   └── solution_001.cpp
+│   │   ├── linked_list/
+│   │   │   ├── problem_002.md
+│   │   │   └── solution_002.cpp
+│   ├── hot-100/
+│       ├── README.md
+│       ├── dynamic_programming/
+│       │   ├── problem_101.md
+│       │   └── solution_101.cpp
+│       ├── tree/
+│           ├── problem_102.md
+│           └── solution_102.cpp
+└── scripts/
+    └── generate_template.py  # auto generate scripts
+```
 
-## 使用语言
+## Contribute
 
-- C++
+If you have good problem-solving ideas or code implementation, you are welcome to submit a Pull Request.
 
-## 贡献
-
-如果你有好的解题思路或者代码实现，欢迎提交 Pull Request。
-
-## 许可
+## License
 
 [MIT](LICENSE)
+
+## Content
+

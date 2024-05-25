@@ -1,11 +1,16 @@
 import os
-
+import argparse
+ 
 # 模板文件路径
 TEMPLATE_DESCRIPTION = 'template_description.md'
 TEMPLATE_SOLUTION = 'template_solution.cpp'
-
+ 
 def create_directory_structure(problem_number, category, plan=None):
-    base_dir = f'problems/problem_{problem_number}' if plan is None else f'study-plan/{plan}/{category}/problem_{problem_number}'
+    
+    print(problem_number)
+    print(category)
+    print(plan)
+    base_dir = f'../problems/problem_{problem_number}' if plan is None else f'../study-plan/{plan}/{category}/problem_{problem_number}'
 
     # 创建必要的目录
     os.makedirs(os.path.join(base_dir, 'description'), exist_ok=True)
@@ -35,14 +40,13 @@ def create_directory_structure(problem_number, category, plan=None):
         f.write(solution_content)
 
     print(f'Directory structure for problem {problem_number} created successfully.')
-if name == 'main':
-import argparse
-parser = argparse.ArgumentParser(description='Generate template for new problem.')
-parser.add_argument('problem_number', type=int, help='Problem number')
-parser.add_argument('--category', type=str, required=True, help='Problem category (e.g., array, linked_list)')
-parser.add_argument('--plan', type=str, help='Study plan name (optional, e.g., leetcode75, hot-100)')
 
-args = parser.parse_args()
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Generate template for new problem.')
+    parser.add_argument('problem_number', type=int, help='Problem number')
+    parser.add_argument('--category', type=str, required=True, help='Problem category (e.g., array, linked_list)')
+    parser.add_argument('--plan', type=str, help='Study plan name (optional, e.g., leetcode75, hot-100)')
 
-create_directory_structure(args.problem_number, args.category, args.plan)
+    args = parser.parse_args()
 
+    create_directory_structure(args.problem_number, args.category, args.plan)
