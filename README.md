@@ -53,3 +53,4 @@ If you have good problem-solving ideas or code implementation, you are welcome t
 
 - [Problem 1768](./study-plan/leetcode75/string/problem_1768/README.md)
 - [Problem 1071](./study-plan/leetcode75/string/problem_1071/README.md)
+- [Problem 1431](./study-plan/leetcode75/array/problem_1431/README.md)
