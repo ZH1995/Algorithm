@@ -67,3 +67,4 @@ If you have good problem-solving ideas or code implementation, you are welcome t
 - [Problem 643](./study-plan/leetcode75/sliding_window/problem_643/README.md)
 - [Problem 1654](./study-plan/leetcode75/sliding_window/problem_1654/README.md)
 - [Problem 1004](./study-plan/leetcode75/sliding_window/problem_1004/README.md)
+- [Problem 1493](./study-plan/leetcode75/sliding_window/problem_1493/README.md)
