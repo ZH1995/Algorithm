@@ -68,3 +68,4 @@ If you have good problem-solving ideas or code implementation, you are welcome t
 - [Problem 1654](./study-plan/leetcode75/sliding_window/problem_1654/README.md)
 - [Problem 1004](./study-plan/leetcode75/sliding_window/problem_1004/README.md)
 - [Problem 1493](./study-plan/leetcode75/sliding_window/problem_1493/README.md)
+- [Problem 374](./study-plan/leetcode75/binary_search/problem_374/README.md)
