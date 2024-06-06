@@ -48,5 +48,5 @@
 
 **Difficulty：**
 
-Medium
+中等
 
