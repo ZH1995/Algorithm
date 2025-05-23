@@ -1,11 +1,11 @@
-# Leetcode
+# Algorithm
 
-This repository contains my solutions to problems on LeetCode. Each problem solution contains detailed problem-solving ideas and code implementation.
+这个仓库包含我在各大平台（如LeetCode、牛客网等）的算法题解集合，主要使用C++实现。每个题解包含了详细的解题思路和代码实现。
 
-## Structure
+## 项目结构
 
 ```sh
-Leetcode-Repo/
+Algorithm/
 ├── README.md
 ├── problems/
 │   ├── problem_0001/
@@ -41,32 +41,14 @@ Leetcode-Repo/
     └── generate_template.py  # auto generate scripts
 ```
 
-## Contribute
+## 贡献指南
 
-If you have good problem-solving ideas or code implementation, you are welcome to submit a Pull Request.
+欢迎提交Pull Request来贡献新的题解或优化现有解法。请确保:
 
-## License
+1. 代码风格一致且有详细注释
+2. 提供清晰的解题思路
+3. 如果有多种解法，请尽量都包含在内并比较它们的优缺点
 
-[MIT](LICENSE)
+## 许可证
 
-## Content
-
-- [Problem 1768](./study-plan/leetcode75/string/problem_1768/README.md)
-- [Problem 1071](./study-plan/leetcode75/string/problem_1071/README.md)
-- [Problem 1431](./study-plan/leetcode75/array/problem_1431/README.md)
-- [Problem 605](./study-plan/leetcode75/array/problem_605/README.md)
-- [Problem 345](./study-plan/leetcode75/string/problem_345/README.md)
-- [Problem 151](./study-plan/leetcode75/string/problem_151/README.md)
-- [Problem 238](./study-plan/leetcode75/array/problem_238/README.md)
-- [Problem 334](./study-plan/leetcode75/array/problem_334/README.md)
-- [Problem 443](./study-plan/leetcode75/array/problem_443/README.md)
-- [Problem 283](./study-plan/leetcode75/two_point/problem_283/README.md)
-- [Problem 392](./study-plan/leetcode75/two_point/problem_392/README.md)
-- [Problem 11](./study-plan/leetcode75/two_point/problem_11/README.md)
-- [Problem 1679](./study-plan/leetcode75/two_point/problem_1679/README.md)
-- [Problem 643](./study-plan/leetcode75/sliding_window/problem_643/README.md)
-- [Problem 1654](./study-plan/leetcode75/sliding_window/problem_1654/README.md)
-- [Problem 1004](./study-plan/leetcode75/sliding_window/problem_1004/README.md)
-- [Problem 1493](./study-plan/leetcode75/sliding_window/problem_1493/README.md)
-- [Problem 374](./study-plan/leetcode75/binary_search/problem_374/README.md)
-- [Problem 2300](./study-plan/leetcode75/binary_search/problem_2300/README.md)
+MIT
