@@ -15,20 +15,20 @@ public:
      * @return ListNode类
      */
     ListNode* deleteDuplicates(ListNode* head) {
-        ListNode* cur = head;
+        if (head == nullptr || head->next == nullptr) {
+            return head;
+        }
         ListNode* pre = nullptr;
-        std::set<int> s;
+        ListNode* cur = head;
         while (cur != nullptr) {
-            if (s.count(cur->val) > 0) {
-                // 将前节点指向下一个节点
-                pre->next = cur->next;
-                // 将当前节点继续向后移动
-                cur = cur->next;
+            // 前驱节点为空 或者 当前节点的val与前驱节点的val不相等，则直接向后继续遍历
+            if (pre == nullptr || pre->val != cur->val) {
+                pre = cur;
             } else {
-                s.insert(cur->val); // 插入集合
-                pre = cur; // 更新前节点
-                cur = cur->next;  // 当前节点向后移动
+                // 若当前节点的val和前驱节点的val相等，则删除当前节点
+                pre->next = cur->next;
             }
+            cur = cur->next;
         }
         return head;
     }
